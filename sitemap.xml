@@ -3,20 +3,27 @@
 
   <url>
     <loc>https://apnadoor.in/</loc>
-    <lastmod>2026-01-24</lastmod>
     <priority>1.0</priority>
   </url>
-<url>
-  <loc>https://apnadoor.in/upvc-door-price-india.html</loc>
-  <priority>0.9</priority>
-</url>
 
-<url>
-  <loc>https://apnadoor.in/aluminium-window-price-india.html</loc>
-  <priority>0.9</priority>
-</url>
   <url>
-  <loc>https://apnadoor.in/upvc-sliding-door-price-india.html</loc>
-  <priority>0.9</priority>
-</url>
+    <loc>https://apnadoor.in/aluminium-sliding-door-price-india.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://apnadoor.in/aluminium-window-price-india.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://apnadoor.in/upvc-door-price-india.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://apnadoor.in/upvc-sliding-door-price-india.html</loc>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
