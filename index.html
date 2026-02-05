@@ -98,47 +98,56 @@ button.primary{background:var(--accent);color:#fff;padding:14px 18px;border-radi
 <!-- Sitemap hint -->
 <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
-<!-- LocalBusiness Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "ApnaDoor",
-  "telephone": "+91-9873802205",
-  "areaServed": "India",
-  "priceRange": "INR",
-  "url": "https://apnadoor.in",
-  "sameAs": [
-    "https://wa.me/919873802205"
-  ],
-  "serviceOffered": {
-    "@type": "Service",
-    "name": "Aluminium & uPVC Doors and Windows"
-  }
-}
-</script>
-
-<!-- FAQ Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Aluminium sliding door price in India?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Aluminium sliding door price in India starts from ₹480 per sq ft depending on size, glass type and city."
-      }
+      "@type": "Organization",
+      "@id": "https://apnadoor.in/#organization",
+      "name": "ApnaDoor",
+      "url": "https://apnadoor.in",
+      "logo": "https://apnadoor.in/logo.png",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9873802205",
+        "contactType": "customer support",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "sameAs": ["https://wa.me/919873802205"]
     },
     {
-      "@type": "Question",
-      "name": "uPVC sliding door price per sq ft?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "uPVC sliding door price usually ranges from ₹550 to ₹750 per sq ft including installation."
-      }
+      "@type": "LocalBusiness",
+      "@id": "https://apnadoor.in/#localbusiness",
+      "name": "ApnaDoor",
+      "telephone": "+91-9873802205",
+      "areaServed": "India",
+      "priceRange": "INR",
+      "url": "https://apnadoor.in",
+      "sameAs": ["https://wa.me/919873802205"]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://apnadoor.in/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Aluminium sliding door price in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aluminium sliding door price in India starts from ₹480 per sq ft depending on size, glass type and city."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "uPVC sliding door price per sq ft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "uPVC sliding door price usually ranges from ₹550 to ₹750 per sq ft including installation."
+          }
+        }
+      ]
     }
   ]
 }
