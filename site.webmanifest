@@ -1,0 +1,12 @@
+
+{
+  "name": "ApnaDoor - Aluminium & uPVC Doors and Windows",
+  "short_name": "ApnaDoor",
+  "description": "Aluminium doors, uPVC windows, sliding doors and glass partition solutions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2937",
+  "orientation": "portrait"
+}
